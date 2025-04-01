@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-------image carousel--------->
+    <link rel="stylesheet" href="splide-4.1.3/dist/css/splide.min.css">
+    <script src="splide-4.1.3/dist/js/splide.min.js"></script>
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+          new Splide( '#image-carousel-desktop', { heightRatio: 1,} ).mount();
+          new Splide( '#image-carousel-mobile', { heightRatio: 3,} ).mount();
+        } );
+    </script>
+    <!-------image carousel--------->
+    <title>Heini Emilia - Project: My Portfolio</title>
+</head>
+<body>
+ 
+  <main>
+
+    <section id="navigation">
+        <div class="logo">
+            <a href="index.html"><img class="navigation-logo" src="graphics/small-dark-logo.png" alt="Heini Emilia"></a>
+        </div>
+        <div class="desktop-navigation">
+            <div class="navigation">
+                <nav id="navbar">
+                    <a href="index.html">home</a>
+                    <a href="aboutme.html">about me</a>
+                    <a href="portfolio.html">portfolio</a>
+                    <a href="index.html#contact">contact</a>
+                </nav>
+            </div>
+        </div>
+        <div class="mobile-navigation">
+            <nav id="mobile-navigation">
+                <div id="menuToggle">
+                  <input type="checkbox" id="menuCheckbox" />
+
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  
+                  <ul id="menu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="aboutme.html">About me</a>
+                    </li>
+                    <li>
+                      <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                      <a href="index.html#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </section>
+
+
+    <section id="project-introduction">
+        <div class="project-introduction-container">
+            <div class="project-introduction-text">
+                <h2>Web design portfolio<h2>
+                <p>This portfolio website was created as part of an IT business degree course to showcase 
+                    my web development projects, skills, and personal style. 
+                
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-------image carousel--------->
+    <div class="carousel-container-desktop">
+        <section id="image-carousel-desktop" class="splide desktop" aria-label="Festival website images">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="graphics/portfolio-img4.png" alt="Portfolio logo">
+                        <img src="graphics/portfolio-img1.png" alt="Portfolio site on different devices">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="graphics/portfolio-img3.png" alt="Layout wireframe">
+                        <img src="graphics/portfolio-img2.png" alt="Layout design in Figma">
+                    </li>
+                </ul>
+            </div>
+      </section>
+    </div>
+
+    <div class="carousel-container-mobile">
+        <section id="image-carousel-mobile" class="splide mobile" aria-label="Festival website images">
+            <div class="splide__track desktop">
+                <ul class="splide__list">
+                    <li class="splide__slide mobile">
+                        <img src="graphics/portfolio-img4.png" alt="Portfolio logo">
+                    </li>
+                    <li class="splide__slide mobile">
+                        <img src="graphics/portfolio-img1.png" alt="Portfolio site on different devices">
+                    </li>
+                    <li class="splide__slide mobile">
+                        <img src="graphics/portfolio-img3.png" alt="Layout wireframe">
+                    </li>
+                    <li class="splide__slide mobile">
+                        <img src="graphics/portfolio-img2.png" alt="Layout design in Figma">
+                    </li>
+                </ul>
+            </div>
+      </section>
+    </div>
+    <!-------image carousel--------->
+
+  <section id="about-project">
+    <div class="about-project-container">
+        <div class="about-project-text">
+            <h3>About the project</h3>
+            <p>
+                The goal was to design a visually appealing, professional, and responsive site that serves as a 
+                networking tool for potential employers and clients. The project allowed me to refine my design 
+                approach, apply my technical skills, and experiment with AI-assisted coding for the first time.
+                
+                
+            </p>
+            <h3>Design & Development Process</h3>
+            <p>
+                The project followed a mobile-first approach, with a focus on responsiveness and usability. I began by 
+                creating a detailed design document, ensuring that another developer could implement the site based on 
+                my specifications. This document included:
+            </p>
+            <ul>
+                <li>A site map outlining the structure</li>
+                <li>A page-by-page script defining content and functionality</li>
+                <li>A graphic design plan outlining the visual style, created in Figma.</li><br>
+            </ul>
+            <p>
+                The homepage acts as a digital business card, giving visitors a clear impression of who I am without 
+                unnecessary clicks. To avoid information overload, the text is kept minimal. Those interested can explore 
+                more details on other pages. <br><br>
+                After the planning phase, I coded the website following HTML5 standards, using CSS for styling and layout.
+            </p>
+
+            <h3>Visual Identity</h3>
+            <p>
+                The website's design reflects my personality and visual style while standing out from the crowd. 
+                The look and feel are playful, soft, and earthy, with carefully chosen design elements:
+                <ul>
+                    <li>Muted colors, rounded shapes, and interesting contrasts.</li> 
+                    <li>A visually appealing yet accessible layout.</li>
+                    <li>Generous use of white space to create a sense of balance.</li>
+                    <li>A personal touch through select elements, such as the headline font, while keeping the rest of the 
+                        design simple and harmonious.</li>
+                </ul> 
+            </p>
+
+            <h3>Testing & Optimization</h3>
+            <p>
+                To ensure quality, the website underwent testing, including HTML & CSS validation, speed testing, responsiveness 
+                checks, accessibility evaluation, and usability and user testing on a small scale.
+
+            </p>
+
+            <h3>Outcome</h3>
+            <p>
+                Through this project, I gained hands-on experience in structured web development, usability testing, 
+                and documentation, while also exploring the potential of AI in coding. I successfully built the website according to my vision and am pleased with the final result. I feel it 
+                represents me well. Throughout the project, I learned a lot and had the chance to apply previously 
+                acquired skills in a practical setting. <br>
+            </p>
+            <h3>Links</h3>
+            <p> Figma: <a href="https://www.figma.com/design/ysEP2es7l39sfMovCcvYVz/Untitled?node-id=0-1&t=2HjUA4h8U4zN8Z5T-1"> Layout design</a><br>
+            </p>
+            
+        </div>
+    </div>
+    <div class="project-navigation">
+        <div class="previous-project">
+          <button id="no-link" class="prev" type="button"><svg xmlns="http://www.w3.org/2000/svg" 
+            viewBox="0 0 40 35" width="20" height="20" focusable="false">
+            <path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg>
+          </button>
+          <a id="no-link">Previous project</a>
+        </div>
+        <div class="next-project">
+          <a id="link" href="jewelbox.html">Next project</a>
+          <button id="link" class="next" type="button"><svg xmlns="http://www.w3.org/2000/svg" 
+            viewBox="0 0 40 35" width="20" height="20" focusable="false">
+            <path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg>
+          </button>
+        </div>
+      </div>
+  </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <img class="footer-background" src="graphics/footer-background.png" alt="Background image">
+     
+      <div class="footer-items">
+        <div class="some-icons">
+          <a href="https://www.linkedin.com/in/heini-karjalainen/"><img class="linkedin-icon" src="graphics/icon-linkedin.png" height="30px" width="30px" alt="LinkedIn"></a>
+          <a href="https://github.com/heiniemilya"><img class="github-icon" src="graphics/icon-github.png" height="30px" width="30px" alt="GitHub"></a>
+          <a href="mailto:heiniemilya@outlook.com"><img class="email-icon" src="graphics/icon-email.png" height="30px" width="30px" alt="Email"></a>
+        </div>
+        <div class="footer-items-container">
+          <div class="footer-information">
+            <p>Heini Emilia</p>
+            <p>Web designer</p>
+            <p>Vantaa, Uusimaa</p>
+          </div>
+          <div class="footer-logo">
+            <a href="index.html"><img id="footer-logo" src="graphics/heini-emilia-logo.png" alt="Heini Emilia"></a>
+          </div>
+          <div class="footer-navigation">
+            <a href="aboutme.html">about me</a>
+            <a href="portfolio.html">portfolio</a>
+            <a href="index.html#contact">contact</a>
+          </div>
+        </div> 
+      </div>
+      
+
+    </div>
+  </footer>
+</body>
+</html>
