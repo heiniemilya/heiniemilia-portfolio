@@ -466,7 +466,7 @@ a {
 /*////////////////// PROJECTS ////////////////////*/
 
 #portfolio {
-  margin-top: 18vh;
+  margin-top: 10vh;
   margin-bottom: 15vh;
   position: relative;
   text-align: center;
@@ -588,7 +588,7 @@ filter: grayscale(100%);
 }
 
 .project-introduction-text h2 {
-  padding-bottom: 30px !important;
+  padding-bottom: 40px !important;
 }
 .project-introduction-text p {
   font-size: 20px ;
@@ -1051,6 +1051,7 @@ input:is(:-webkit-autofill, :autofill){
 @media only screen and (max-width: 800px) {
 
   .project-introduction-container {
+    margin-top: 30px;
     padding-left: 5px;
     padding-right: 5px;
   }
