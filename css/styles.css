@@ -12,6 +12,7 @@
     url('../fonts/edensor-free.woff') format('woff'), /* Pretty Modern Browsers */
     url('../fonts/edensor-free.ttf')  format('truetype'), /* Safari, Android, iOS */
     url('../fonts/edensor-free.svg') format('svg'); /* Legacy iOS */
+    font-display: swap;
 	}
 
 body {
