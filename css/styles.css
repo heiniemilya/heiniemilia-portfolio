@@ -362,7 +362,7 @@ a {
 
 #introduction-img{
   opacity: 97%;
-  max-width: 650px;
+  max-width: 523px;
   max-height: 650px;
 }
 
@@ -899,6 +899,8 @@ input:is(:-webkit-autofill, :autofill){
   #introduction-img {
     max-width: 90vw !important;
     height: auto;
+    max-width: 403px;
+    max-height: 500px;
   }
 
   /* portfolio projects vertically scale 85 */
@@ -1120,7 +1122,7 @@ input:is(:-webkit-autofill, :autofill){
   }
 
   #introduction-img {
-    max-width: 500px;
+    max-width: 403px;
     max-height: 500px;
   }
 
