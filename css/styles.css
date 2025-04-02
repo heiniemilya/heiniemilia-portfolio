@@ -432,7 +432,7 @@ a {
 .cv-text {
   text-align: left;
   padding-bottom: 30px;
-  max-width: 250px;
+  max-width: 280px;
 }
 
 .cv-text h3 {
@@ -1163,7 +1163,7 @@ input:is(:-webkit-autofill, :autofill){
     max-width: 550px;
     margin-top: 0;
     margin-bottom: 50px;
-    padding: 30px;
+    padding: 10px;
     text-align: center;
   }
 
