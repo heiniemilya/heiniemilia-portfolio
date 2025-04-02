@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: "Edensor";
-	  src: url('../fonts/edensor-free.eot&display=swap'); /* IE9 Compat Modes */
-  	src: url('../fonts/edensor-free.eot&display=swap') format('embedded-opentype'),
-    url('../fonts/edensor-free.woff2&display=swap') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/edensor-free.woff&display=swap') format('woff'), /* Pretty Modern Browsers */
-    url('../fonts/edensor-free.ttf&display=swap')  format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/edensor-free.svg&display=swap') format('svg'); /* Legacy iOS */
+	  src: url('../fonts/edensor-free.eot'); /* IE9 Compat Modes */
+  	src: url('../fonts/edensor-free.eot') format('embedded-opentype'),
+    url('../fonts/edensor-free.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/edensor-free.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/edensor-free.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/edensor-free.svg') format('svg'); /* Legacy iOS */
 	}
 
 body {
@@ -265,7 +265,7 @@ a {
   }
 
 #current-page {
-  opacity: 50% !important;
+  opacity: 60% !important;
   }
 
 
