@@ -862,6 +862,7 @@ input:is(:-webkit-autofill, :autofill){
   opacity: 90%;
   height: 150px;
   width: 150px;
+  padding: 20px;
   transition: transform .5s;
 }
 
