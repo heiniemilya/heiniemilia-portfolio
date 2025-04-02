@@ -1099,7 +1099,7 @@ input:is(:-webkit-autofill, :autofill){
   #hero-logo {
     width: 60vw; 
     min-width: 450px;
-    max-width: 600px;
+    max-width: 500px;
     transform: translate(-50%, -50%) translateY(-40px) scale(1.03);
   }
 
@@ -1218,6 +1218,8 @@ input:is(:-webkit-autofill, :autofill){
 
   #hero-logo {
     width: 40vw; 
+    min-width: 500px;
+    max-width: 600px;
     transform: translate(-50%, -50%) translateY(-40px) scale(1.03); 
   }
   #hero-logo:hover {
