@@ -80,6 +80,8 @@ a {
   font-weight: normal;
   color: #1c0b2f;
   text-decoration: none;
+  word-break: break-all;
+  overflow-wrap: break-word;
 } 
 
 /*////////////////// NAVIGATION ////////////////////*/ 
@@ -639,14 +641,14 @@ filter: grayscale(100%);
 
 .about-project-container {
   position: relative;
+  display: flex;
   justify-content: center;
 }
 
 .about-project-text {
   margin-top: 7vh;
   margin-bottom: 15vh;
-  margin-left: 60px;
-  align-self: center;
+  margin-left: 40px;
   max-width: 650px;
   text-align: left;
 }
