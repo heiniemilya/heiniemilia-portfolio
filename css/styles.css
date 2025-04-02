@@ -889,10 +889,11 @@ input:is(:-webkit-autofill, :autofill){
 
   #hero-logo {
     width: 80vw; 
-    transform: translate(-50%, -50%) translateY(-20px) scale(1.03); 
+    max-width: 450px;
+    transform: translate(-50%, -50%) translateY(-50px) scale(1.03); 
   }
   #hero-logo:hover {
-    transform: translate(-50%, -50%) translateY(-20px) scale(1.03);
+    transform: translate(-50%, -50%) translateY(-50px) scale(1.03);
   }
 
   #introduction-img {
@@ -986,10 +987,11 @@ input:is(:-webkit-autofill, :autofill){
   }
   #hero-logo {
     width: 80vw;
-    transform: translate(-50%, -50%) translateY(-30px) scale(1.03);
+    max-width: 450px;
+    transform: translate(-50%, -50%) translateY(-40px) scale(1.03);
   }
   #hero-logo:hover {
-    transform: translate(-50%, -50%) translateY(-30px) scale(1.03);
+    transform: translate(-50%, -50%) translateY(-40px) scale(1.03);
   }
 
  }
@@ -1093,6 +1095,7 @@ input:is(:-webkit-autofill, :autofill){
 
   #hero-logo {
     width: 60vw; 
+    min-width: 450px;
     transform: translate(-50%, -50%) translateY(-40px) scale(1.03);
   }
 
@@ -1211,10 +1214,10 @@ input:is(:-webkit-autofill, :autofill){
 
   #hero-logo {
     width: 40vw; 
-    transform: translate(-50%, -50%) translateY(-50px) scale(1.03); 
+    transform: translate(-50%, -50%) translateY(-40px) scale(1.03); 
   }
   #hero-logo:hover {
-    transform: translate(-50%, -50%) translateY(-50px) scale(1.03);
+    transform: translate(-50%, -50%) translateY(-40px) scale(1.03);
   }
 }
 
