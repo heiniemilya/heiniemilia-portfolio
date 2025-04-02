@@ -1051,17 +1051,13 @@ input:is(:-webkit-autofill, :autofill){
 @media only screen and (max-width: 800px) {
 
   .project-introduction-container {
-    margin-top: 30px;
+    margin-top: 20px;
     padding-left: 5px;
     padding-right: 5px;
   }
 
   .project-introduction-text {
     margin-bottom: 10px;
-  }
-
-  .project-introduction-text h2 {
-    margin-bottom: 20px;
   }
 
   .about-project-container {
