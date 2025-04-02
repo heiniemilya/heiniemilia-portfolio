@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" async>
     <!-------image carousel--------->
     <link rel="stylesheet" href="splide-4.1.3/dist/css/splide.min.css">
     <script src="splide-4.1.3/dist/js/splide.min.js"></script>
@@ -187,18 +187,20 @@
     </div>
     <div class="project-navigation">
         <div class="previous-project">
-          <button id="link" class="prev" type="button"><svg xmlns="http://www.w3.org/2000/svg" 
-            viewBox="0 0 40 35" width="20" height="20" focusable="false">
-            <path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg>
-          </button>
-          <a href="festival.html" id="link">Last project</a>
+          <a href="festival.html" id="link">
+            <button id="link" class="prev" type="button" aria-label="Previous"><svg xmlns="http://www.w3.org/2000/svg" 
+              viewBox="0 0 40 35" width="20" height="20" focusable="false">
+              <path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg>
+            </button>
+          Last project</a>
         </div>
         <div class="next-project">
-          <a id="link" href="jewelbox.html">Next project</a>
-          <button id="link" class="next" type="button"><svg xmlns="http://www.w3.org/2000/svg" 
-            viewBox="0 0 40 35" width="20" height="20" focusable="false">
-            <path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg>
-          </button>
+          <a id="link" href="jewelbox.html">Next project
+            <button id="link" class="next" type="button" aria-label="Next"><svg xmlns="http://www.w3.org/2000/svg" 
+              viewBox="0 0 40 35" width="20" height="20" focusable="false">
+              <path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg>
+            </button>
+          </a>
         </div>
       </div>
   </section>
