@@ -639,7 +639,6 @@ filter: grayscale(100%);
 
 .about-project-container {
   position: relative;
-  display: flex;
   justify-content: center;
 }
 
